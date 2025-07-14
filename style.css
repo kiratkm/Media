@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffccbb;
+  color: #333;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  font-family: Monaco, sans-serif;
+  font-size: 40px;
+}
+
+.gallery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+figure {
+  text-align: center;
+}
+
+.text-img {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.custom-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.custom-list li {
+  background: url("https://projects.codecraftworks.com/web/q0TrVJ9SVuSveubg5kDK/assets/9022034_cat_duotone_icon.png") no-repeat left center;
+  background-size: 20px 20px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
